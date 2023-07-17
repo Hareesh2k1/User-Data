@@ -1,0 +1,32 @@
+/* src/css/styles.css */
+
+.Container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.Navbar {
+  background-color: #bd7930;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Button {
+  background-color: #67da1f;
+  color: #0e0e0e;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.Loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 24px;
+}
